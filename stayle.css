@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+div {
+    display: block;
+}
+.navbar {
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    font-size: 1vw;
+    height: 100%;
+    justify-content: space-between;
+    padding: 1em 0.5em;
+    top: 0;
+    z-index: 999;
+}
+.link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navbar-icon {
+    cursor: pointer;
+    margin-left: 0.5em;
+}
+ .nav-menu {
+    padding: 0 1em;
+}
+.nav-menu-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+ul {
+    list-style-type: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.nav-menu-list {
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    padding:   0 10px 0;
+}
+/* ///////////////////// */
+     .container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 4em 0;
+   
+}
+  .posts-list {
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    width: 100%;
+}
+.post {
+    align-items: center;
+    text-align: center;
+    position: absolute;
+}
+
+.post-info {
+    background-color: #fff;
+    border: none;
+    border-radius: 1em;
+    font-size: 1vw;
+    margin: 0  17%;
+    max-width: 70%;
+    padding: .5% 3.5%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: -70px;
+    z-index: 0;
+  
+}
+
+.post-info-views-data-tags {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 1vw;
+    font-weight: 650;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.btn {
+    position: relative  ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: #05a5ea;
+    border: none;
+    border-radius: 0.5em;
+    color: #fff;
+    cursor: pointer;
+    padding: 1em 2em;
+    white-space: pre;
+    max-width: 120px;
+    top: -200px ;
+    margin-left: 45%;
+  
+}   
+/* ///////footer///////// */
+.footer {
+    font-size: large;
+    font-size: 1.5vw;
+    margin: 1em 2em 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 50px;
+}
+.sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section {
+    margin-right: 100px;
+    text-transform: capitalize;
+}
